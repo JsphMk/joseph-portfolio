@@ -57,6 +57,8 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+  const latestExperienceFirst = [...experiences].reverse();
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -67,7 +69,7 @@ const Experience = () => {
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
+          {latestExperienceFirst.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
