@@ -74,11 +74,30 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className='mt-4 text-[16px] leading-7 text-secondary'>
+          For opportunities or engineering conversations, email{" "}
+          <a
+            href='mailto:mokchi2324@hotmail.com'
+            className='font-medium text-white underline decoration-[#915EFF] underline-offset-4'
+          >
+            mokchi2324@hotmail.com
+          </a>{" "}
+          or connect with me on{" "}
+          <a
+            href='https://www.linkedin.com/in/chi-hong98/'
+            target='_blank'
+            rel='noreferrer'
+            className='font-medium text-white underline decoration-[#915EFF] underline-offset-4'
+          >
+            LinkedIn
+          </a>
+          .
+        </p>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-10 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>

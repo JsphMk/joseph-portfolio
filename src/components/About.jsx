@@ -60,8 +60,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a Full Stack Developer with 4 years of professional experience in mobile, web, and backend development. My expertise lies in developing scalable full-stack web applications using Laravel and Yii2 frameworks, building cross platform mobile applications with Flutter, and creating backend RESTful APIs with the .NET Core Framework. I specialize in crafting user-friendly, high-performance applications by writing clean, reusable, and maintainable code.
-        I am passionate about staying updated with the latest trends in both web and mobile development. With experience in leading teams, I am also highly capable of working independently with minimal supervision. I thrive on tackling new challenges and am a quick learner, always eager to expand my skills.
+        I am a Senior Software Engineer with 5+ years of experience delivering
+        scalable web and cross-platform mobile applications using Angular,
+        Flutter, C#, .NET, PHP and TypeScript. I design RESTful APIs, build
+        white-label products, automate delivery with CI/CD and guide releases
+        through UAT and production. I work closely with clients and stakeholders,
+        lead and mentor engineers, and improve application security through VAPT
+        remediation. I also use Claude, OpenAI Codex and self-hosted LLMs for
+        software development, research, debugging and workflow automation.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

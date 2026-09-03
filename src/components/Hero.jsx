@@ -16,12 +16,22 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Joseph</span>
+            Hi, I'm <span className='text-[#915EFF]'>Chi Hong</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Full Stack Developer <br className='sm:block hidden' />
-            specialized in mobile, web and backend APIs!
+            Senior Software Engineer <br className='sm:block hidden' />
+            building full-stack web, mobile and API products.
           </p>
+          <div className='mt-6 flex flex-wrap gap-3'>
+            {["5+ years", "200,000+ users", "Web • Mobile • APIs"].map((item) => (
+              <span
+                key={item}
+                className='rounded-full border border-[#915EFF]/50 bg-[#151030]/80 px-4 py-2 text-[13px] font-medium text-white-100 backdrop-blur-sm sm:text-[14px]'
+              >
+                {item}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
 

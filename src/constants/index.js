@@ -47,6 +47,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "education",
+    title: "Education",
+  },
+  {
     id: "projects",
     title: "Projects",
   },
@@ -58,7 +62,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Web",
     icon: web,
     stack: [
       {
@@ -74,21 +78,13 @@ const services = [
         icon: typescript,
       },
       {
-        name: "React JS",
-        icon: reactjs,
-      },
-      {
-        name: "Tailwind CSS",
-        icon: tailwind,
-      },
-      {
-        name: "Three JS",
-        icon: threejs,
+        name: ".NET Core",
+        icon: donet_core,
       },
     ]
   },
   {
-    title: "Mobile App Developer",
+    title: "Mobile Applications",
     icon: flutter,
     stack: [
       {
@@ -96,13 +92,13 @@ const services = [
         icon: flutter,
       },
       {
-        name: "Swift",
-        icon: swift,
+        name: "TypeScript",
+        icon: typescript,
       },
     ]
   },
   {
-    title: "Backend Developer",
+    title: "APIs & Delivery",
     icon: backend,
     stack: [
       {
@@ -114,8 +110,12 @@ const services = [
         icon: donet_core,
       },
       {
-        name: "MySQL",
-        icon: mysql,
+        name: "Docker",
+        icon: docker,
+      },
+      {
+        name: "Git",
+        icon: git,
       },
 
     ]
@@ -124,50 +124,53 @@ const services = [
 
 const technologies = [
   {
-    name: "Figma",
-    icon: figma,
+    name: "C#",
+    icon: c_sharp,
   },
   {
-    name: "Adobe XD",
-    icon: xd,
+    name: ".NET Core",
+    icon: donet_core,
   },
   {
-    name: "Adobe After Effects",
-    icon: after_effects,
+    name: "Angular",
+    icon: angular,
   },
   {
-    name: "Adobe Premiere Pro",
-    icon: premiere_pro,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
-    name: "Adobe Photoshop",
-    icon: photoshop,
+    name: "Flutter",
+    icon: flutter,
   },
   {
     name: "Docker",
     icon: docker,
   },
   {
-    name: "Azure",
-    icon: azure,
+    name: "PHP / Laravel",
+    icon: laravel,
   },
   {
-    name: "Google Cloud Platform",
-    icon: gcp,
+    name: "MySQL",
+    icon: mysql,
   },
 ];
 
+const additionalSkills = [
+  "RESTful API Design",
+  "CI/CD & GitHub Actions",
+  "Application Security / VAPT",
+  "OpenAPI / Swagger",
+  "App Store & Google Play Releases",
+  "YOLOv5",
+  "PaddleSeg",
+  "Claude",
+  "OpenAI Codex",
+  "Self-hosted LLMs",
+];
+
 const experiences = [
-  {
-    title: "Industrial Trainee",
-    company_name: "Silkron Technologies Sdn Bhd",
-    icon: silkron,
-    iconBg: "#383E56",
-    date: "Jan 2021 - June 2021 (6 months)",
-    points: [
-      "Design, develop and maintain web-based application with MySQL, JS and Yii2 PHP Framework",
-    ],
-  },
   {
     title: "Software Engineer",
     company_name: "Silkron Technologies Sdn Bhd",
@@ -175,11 +178,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2021 - Jan 2023 (1 year 7 months)",
     points: [
-      "Develop, maintain and deploy WeChat Mini Program.",
-      "Train AI models using YOLOv5 object detection algorithm on Google Cloud Platform and image labeling with PaddleSeg.",
-      "Developed and integrated RESTful APIs for WeChat Mini Programs and mobile applications.",
-      "Designed, developed, and maintained mobile applications using the Flutter framework.",
-      "Managed codebase version control using Git and SVN.",
+      "Designed, implemented and maintained web applications using Yii2 and JavaScript.",
+      "Developed and deployed WeChat Mini Programs and mobile applications to Google Play and the Apple App Store.",
+      "Built and integrated RESTful APIs for mobile and WeChat application workflows.",
+      "Trained computer-vision models using YOLOv5 and supported image labeling and segmentation with PaddleSeg.",
     ],
   },
   {
@@ -189,26 +191,47 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - Jan 2024 (1 year)",
     points: [
-      "Lead and manage team of 4 (Domestic & overseas) by providing mentorship and guidance.",
-      "Develop and maintain various custom white label mobile application.",
-      "CI/CD with GitHub action.",
-      "Publish and maintain mobile application on Google play and Apple app store.",
-      "Assign task and evaluate man-days for team.",
+      "Led a development team by providing mentorship, technical guidance and delivery support.",
+      "Developed and maintained a cross-platform Flutter application and RESTful APIs using PHP Yii2.",
+      "Established CI/CD workflows with GitHub Actions and documented APIs using OpenAPI / Swagger.",
+      "Published and maintained mobile applications while monitoring and optimizing app and API performance.",
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     company_name: "Alliance Healthcare Group",
     icon: alliance_healthcare_group,
     iconBg: "#ffffff",
-    date: "Jan 2024 - Present (1 year 4 months)",
+    date: "Jan 2024 - Present",
     points: [
-      "Develop and maintain APIs for mobile apps and web portals using the .NET Core framework with CQRS + Mediator pattern.",
-      "Build and enhance various white label web applications with Angular and TypeScript",
-      "Develop and maintain various white label mobile applications using Flutter"
+      "Build and enhance Angular and TypeScript member portals and Flutter mobile applications supporting 200,000+ users across Android and iOS.",
+      "Develop multiple white-label Flutter apps from a shared codebase with configurable branding and client-specific features.",
+      "Design and maintain RESTful APIs using C# and .NET Core, with CI/CD workflows across environments.",
+      "Partner with clients and internal stakeholders to clarify requirements, manage expectations, support UAT and coordinate production releases.",
+      "Perform VAPT remediation across web, mobile and API components, improve performance and usability, and manage App Store and Google Play releases.",
     ],
   },
 ];
+
+const education = [
+  {
+    period: "2019 - 2021",
+    qualification: "BSc (Hons) Computing",
+    institution: "University of Greenwich",
+    highlights: ["First Class Honours", "Best Student Award"],
+  },
+  {
+    period: "2016 - 2018",
+    qualification: "Diploma in Information Technology",
+    institution: "SEGi College Penang",
+    highlights: [
+      "Vice President, Multi-Tech Society",
+      "Champion, SEGi Video Competition",
+    ],
+  },
+];
+
+const languages = ["English", "Malay", "Chinese"];
 
 const projects = [
   {
@@ -389,4 +412,12 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export {
+  services,
+  technologies,
+  additionalSkills,
+  experiences,
+  education,
+  languages,
+  projects,
+};
