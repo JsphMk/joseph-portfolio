@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon, stack }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] grid grid-rows-[64px_60px_1fr] gap-4 justify-items-center'
       >
         <img
           src={icon}
@@ -27,11 +27,11 @@ const ServiceCard = ({ index, title, icon, stack }) => (
           className='w-16 h-16 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='flex items-center justify-center text-white text-[20px] leading-[30px] font-bold text-center'>
           {title}
         </h3>
         
-        <div className='flex flex-row flex-wrap justify-center gap-4'>
+        <div className='flex w-full flex-row flex-wrap content-start justify-center gap-4'>
           {stack.map((technology) => (
             <div className='w-8 h-8' key={technology.name}>
               <img
