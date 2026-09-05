@@ -449,10 +449,10 @@ const projects = [
       },
     ],
     image: threeD_portfolio,
-    source_code_link: "https://github.com/chihong33/joseph-portfolio",
+    source_code_link: "https://github.com/JsphMk/joseph-portfolio",
     app_store_link: "",
     play_store_link: "",
-    website_link: "https://chihong33.github.io/joseph-portfolio/",
+    website_link: "https://jsphmk.github.io/joseph-portfolio/",
   },
 ];
 
