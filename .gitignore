@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+public/desktop_pc/scene.glb
+public/planet/scene.glb
 *.local
 
 # Editor directories and files

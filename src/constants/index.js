@@ -155,6 +155,50 @@ const technologies = [
     name: "MySQL",
     icon: mysql,
   },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "Figma",
+    icon: figma,
+  },
+  {
+    name: "Adobe XD",
+    icon: xd,
+  },
+  {
+    name: "Adobe After Effects",
+    icon: after_effects,
+  },
+  {
+    name: "Adobe Premiere Pro",
+    icon: premiere_pro,
+  },
+  {
+    name: "Adobe Photoshop",
+    icon: photoshop,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: "Google Cloud Platform",
+    icon: gcp,
+  },
 ];
 
 const additionalSkills = [
